@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {
+  background-color: #45475c;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.image img {
+  width: 935px;
+  height: 350px;
+  margin-top: 140px;
+}
+
+.about .title {
+  padding-top: 115px;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.about .title span {
+  color: #3bbaa3;
+}
+
+.about .subtitle {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #b5b5b5;
+}
+
+.service img {
+  width: 400px;
+  height: 500px;
+}
+
+.service .card {
+  background-color: #2f303d;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.service .titles {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.service .card:hover {
+  box-shadow: rgba(59, 168, 163, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+.card .title1 {
+  color: #3bbaa3;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card .title2 {
+  color: #7f84b8;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card .title3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card .subtitle {
+  color: #dedede;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 0px;
+}
+
+.portofolio .title {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.portofolio span {
+  color: #3bbaa3;
+}
+
+/* .portofolio .test {
+  background-color: red;
+} */
+
+.portofolio .card {
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px;
+  background-color: #2f303d;
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+.portofolio .card img {
+  border-radius: 10px;
+  height: 230px;
+}
+
+.portofolio .card p {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+}
