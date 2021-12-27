@@ -31,6 +31,8 @@ body {
 
 .service img {
   margin-bottom: 20px;
+  width: 460px;
+  height: 383px;
 }
 
 @media (max-width: 970px) {
