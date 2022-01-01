@@ -43,6 +43,16 @@ body {
   }
 }
 
+@media (min-width: 346px) {
+  .portofolio .card img {
+    width: 100%;
+  }
+
+  .portofolio .card {
+    width: 100%;
+  }
+}
+
 .service .card {
   background-color: #2f303d;
   padding: 0px 20px 0px 20px;
