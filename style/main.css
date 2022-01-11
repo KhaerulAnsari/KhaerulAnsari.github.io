@@ -201,13 +201,26 @@ nav .container .nav-item .active {
 } */
 
 .portofolio .card {
-  padding: 15px 15px 5px 15px;
-  border-radius: 10px;
+  padding: 25px 25px 20px 25px;
+  border-radius: 20px;
   background-color: #2f303d;
   margin-bottom: 20px;
-  height: 350px;
+  /* height: 350px; */
   transition: 0.5;
   width: 100%;
+}
+
+.portofolio .left {
+  margin-right: 10px;
+}
+
+.portofolio .center {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.portofolio .right {
+  margin-left: 10px;
 }
 
 .portofolio .image {
@@ -220,7 +233,7 @@ nav .container .nav-item .active {
   background-color: rgba(69, 70, 82, 0.5);
   position: absolute;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   line-height: 250px;
   top: 0;
@@ -236,9 +249,9 @@ nav .container .nav-item .active {
 }
 
 .portofolio .card img {
-  border-radius: 10px;
+  border-radius: 20px;
   width: 100%;
-  height: 230px;
+  height: 250px;
   transition: 0.3s;
 }
 
@@ -248,9 +261,9 @@ nav .container .nav-item .active {
 
 .portofolio .card p {
   color: white;
-  font-size: 13px;
-  font-weight: 400;
-  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 15px;
 }
 
 .coba {
@@ -299,6 +312,19 @@ footer img {
   }
 }
 
+@media (max-width: 768px) {
+  .portofolio .left {
+    margin-right: 0;
+  }
+  .portofolio .right {
+    margin-left: 0;
+  }
+  .portofolio .center {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 @media (max-width: 576px) {
   .abouts .headtext {
     font-size: 35px;
@@ -320,17 +346,16 @@ footer img {
 
   .portofolio .card {
     width: 100%;
-    height: 370px;
   }
 
   .portofolio .card img {
     width: 100%;
-    height: 300px;
+    height: 250px;
   }
 
   .portofolio .show {
-    height: 300px;
-    line-height: 300px;
+    height: 250px;
+    line-height: 250px;
   }
 }
 
