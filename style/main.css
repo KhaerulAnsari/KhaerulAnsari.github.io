@@ -311,6 +311,10 @@ footer p {
   margin-bottom: 30px;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 footer img {
   width: 40px;
   height: 40px;
@@ -360,6 +364,8 @@ footer img {
     width: 90px;
     height: 90px;
   }
+
+  
 
   footer .container .margin {
     margin-right: 20px;
