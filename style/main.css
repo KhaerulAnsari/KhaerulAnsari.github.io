@@ -24,6 +24,11 @@
   color: #b5b5b5;
   font-weight: 400;
   font-size: 18px;
+} 
+
+.abouts img {
+   width: 350px;
+   height: 350px;
 }
 
 body {
@@ -335,6 +340,11 @@ footer img {
     height: 259px;
     margin-bottom: 20px;
   }
+
+  .abouts img {
+    width: 250px;
+    height: 250px;
+ }
 }
 
 @media (max-width: 768px) {
@@ -361,6 +371,11 @@ footer img {
   .tools .right {
     margin-left: 0;
   }
+
+  .abouts img {
+    width: 200px;
+    height: 200px;
+ }
 }
 
 @media (max-width: 576px) {
