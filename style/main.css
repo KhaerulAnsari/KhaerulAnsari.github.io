@@ -412,6 +412,11 @@ footer img {
     height: 250px;
     line-height: 250px;
   }
+
+  .abouts img {
+    width: 150px;
+    height: 150px;
+ }
 }
 
 /* @media (max-width: 720px) {
@@ -445,4 +450,9 @@ footer img {
   .tools .card {
     margin-top: 20px;
   }
+
+  .abouts img {
+    width: 100px;
+    height: 100px;
+ }
 }
