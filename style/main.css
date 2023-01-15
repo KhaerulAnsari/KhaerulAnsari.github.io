@@ -246,14 +246,14 @@ nav .container .nav-item .active {
 }
 
 .portofolio .show {
-  height: 250px;
+  height: 225px;
   display: block;
   background-color: rgba(69, 70, 82, 0.5);
   position: absolute;
   width: 100%;
   border-radius: 20px;
   text-align: center;
-  line-height: 250px;
+  line-height: 225px;
   top: 0;
   transition: 0.6s;
   color: #dedede;
